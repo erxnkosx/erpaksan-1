@@ -29,12 +29,10 @@ export default function Hero() {
     </div>
 
     {/* titel */}
-    <h1 className="text-5xl font-black leading-[1.05] md:text-7xl">
+    <h1 className="text-5xl font-black leading-[1.05] md:text-6xl">
       Professionele
       <br />
-      <span className="text-[#C08A33]">verpakkings-</span>
-      <br />
-      <span className="text-[#C08A33]">oplossingen</span>
+      <span className="text-[#C08A33]">verpakkingsoplossingen</span>
       <br />
       op maat
     </h1>
@@ -43,7 +41,7 @@ export default function Hero() {
     <div className="mt-6 h-[1px] w-16 bg-white/20" />
 
     {/* tekst */}
-    <p className="mt-8 max-w-xl text-lg leading-8 text-white/80">
+    <p className="mt-8 max-w-[475px] text-lg leading-8 text-white/80 leading-11">
       Van horeca tot foodindustrie — kwaliteitsvolle verpakkingen, snel
       geleverd vanuit België, met persoonlijke begeleiding van A tot Z.
     </p>

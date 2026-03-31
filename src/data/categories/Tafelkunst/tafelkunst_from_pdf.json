@@ -1,0 +1,165 @@
+[
+  {
+    "source_file": "cutlery.json",
+    "category": "Cutlery",
+    "code": "5479",
+    "size": "Knife 175 mm",
+    "variant": "LUX",
+    "quantity": "1000 pcs"
+  },
+  {
+    "source_file": "cutlery.json",
+    "category": "Cutlery",
+    "code": "5477",
+    "size": "Fork 175 mm",
+    "variant": "LUX",
+    "quantity": "1000 pcs"
+  },
+  {
+    "source_file": "cutlery.json",
+    "category": "Cutlery",
+    "code": "5478",
+    "size": "Spoon 175 mm",
+    "weight": "5.5 gr",
+    "quantity": "1000 pcs"
+  },
+  {
+    "source_file": "cutlery.json",
+    "category": "Cutlery",
+    "code": "5417",
+    "size": "Coffee spoon 130 mm",
+    "quantity": "20 x 100 pcs"
+  },
+  {
+    "source_file": "cutlery.json",
+    "category": "Cutlery",
+    "code": "9000",
+    "size": "Fries fork wood 85 mm",
+    "quantity": "10 x 1000 pcs"
+  },
+  {
+    "source_file": "cutlery.json",
+    "category": "Cutlery",
+    "code": "5400",
+    "size": "Coffee spoon stick 110 mm",
+    "quantity": "10000 pcs"
+  },
+  {
+    "source_file": "paper_cup.json",
+    "category": "Paper Cup",
+    "code": "OZ4",
+    "size": "4oz",
+    "quantity": "1000/2500 pcs"
+  },
+  {
+    "source_file": "paper_cup.json",
+    "category": "Paper Cup",
+    "code": "OZ-7",
+    "size": "7oz",
+    "quantity": "1000/2500 pcs"
+  },
+  {
+    "source_file": "paper_cup.json",
+    "category": "Paper Cup",
+    "code": "OZ-7.5",
+    "size": "7.5oz",
+    "quantity": "1000/2500 pcs"
+  },
+  {
+    "source_file": "paper_cup.json",
+    "category": "Paper Cup",
+    "code": "OZ-8",
+    "size": "8oz",
+    "quantity": "1000 pcs"
+  },
+  {
+    "source_file": "paper_cup.json",
+    "category": "Paper Cup",
+    "code": "OZ-12",
+    "size": "12oz",
+    "quantity": "1000 pcs"
+  },
+  {
+    "source_file": "paper_food_bucket.json",
+    "category": "Paper Food Bucket",
+    "code": "BUC60",
+    "size": "Bucket 60 Oz (1750 ml)",
+    "quantity": "300 pcs"
+  },
+  {
+    "source_file": "paper_food_bucket.json",
+    "category": "Paper Food Bucket",
+    "code": "BUC85",
+    "size": "Bucket 85 Oz (2500 ml)",
+    "quantity": "300 pcs"
+  },
+  {
+    "source_file": "paper_food_bucket.json",
+    "category": "Paper Food Bucket",
+    "code": "BUC130",
+    "size": "Bucket 130 Oz (3500 ml)",
+    "quantity": "300 pcs"
+  },
+  {
+    "source_file": "napkins.json",
+    "category": "Napkins",
+    "size": "40 x 40",
+    "quantity": "50 pcs"
+  },
+  {
+    "source_file": "doner_pasta_box.json",
+    "category": "Doner / Pasta Box",
+    "code": "26OZ",
+    "size": "26OZ",
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "doner_pasta_box.json",
+    "category": "Doner / Pasta Box",
+    "code": "16OZ",
+    "size": "16OZ",
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "salad_bowl_lid_combi_pack.json",
+    "category": "Salad bowl / Lid combi pack",
+    "code": "9100",
+    "size": "550 cc + lid",
+    "quantity": "300 pcs"
+  },
+  {
+    "source_file": "salad_bowl_lid_combi_pack.json",
+    "category": "Salad bowl / Lid combi pack",
+    "code": "9101",
+    "size": "750 cc + lid",
+    "quantity": "300 pcs"
+  },
+  {
+    "source_file": "salad_bowl_lid_combi_pack.json",
+    "category": "Salad bowl / Lid combi pack",
+    "code": "9102",
+    "size": "1100 cc + lid",
+    "quantity": "200 pcs"
+  },
+  {
+    "source_file": "salad_bowl_lid_combi_pack.json",
+    "category": "Salad bowl / Lid combi pack",
+    "code": "9105",
+    "size": "1300 cc + lid Case",
+    "quantity": "200 pcs"
+  },
+  {
+    "source_file": "paper_straws.json",
+    "category": "Paper Straws",
+    "code": "RIET06",
+    "size": "6 mm",
+    "quantity": "5000 pcs"
+  },
+  {
+    "source_file": "paper_straws.json",
+    "category": "Paper Straws",
+    "code": "RIET08",
+    "size": "8 mm",
+    "quantity": "2800 pcs"
+  }
+]

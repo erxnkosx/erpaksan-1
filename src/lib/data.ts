@@ -1,3 +1,5 @@
+import { Award, Users, Star, Lightbulb, Shield, Leaf } from "lucide-react";
+// NAV
 export const navLinks = [
   { label: "Home", href: "#" },
   { label: "Producten", href: "#producten" },
@@ -6,6 +8,7 @@ export const navLinks = [
   { label: "Online catalogus", href: "#" },
 ];
 
+// STATS
 export const stats = [
   { value: "20+", label: "Jaar ervaring" },
   { value: "500+", label: "Tevreden klanten" },
@@ -13,96 +16,89 @@ export const stats = [
   { value: "24–48u", label: "Leveringstijd" },
 ];
 
-export const features = [
-  { title: "Kwaliteit", subtitle: "ISO gecertificeerd" },
-  { title: "Klantgericht", subtitle: "Persoonlijke service" },
-  { title: "Duurzaam", subtitle: "Eco-vriendelijk" },
-  { title: "Snelle levering", subtitle: "24–48u levering" },
-];
+// IMPORT JSON 
+import verpakking from "@/data/categories/Verpakking/verpakking_from_pdf.json";
+import tafelkunst from "@/data/categories/Tafelkunst/tafelkunst_from_pdf.json";
+import hygiene from "@/data/categories/Hygiëne/hygiene_from_pdf.json";
 
-export const categories = [
+// TYPE 
+type Category = {
+  title: string;
+  description: string;
+  image: string;
+  data: any[];
+};
+
+// CATEGORIES 
+export const categories: Category[] = [
   {
     title: "Verpakking",
     description: "Dozen, trays, bekers en meer voor elke verpakkingsbehoefte.",
-    image: "/images/category-verpakking.jpg",
-    count: "6 producten",
+    image: "/verpakking.png",
+    data: verpakking,
   },
   {
     title: "Tafelkunst",
     description: "Professioneel tafeltextiel, servetten en disposables.",
-    image: "/images/category-tafelkunst.jpg",
-    count: "2 producten",
+    image: "/tafelkunst.png",
+    data: tafelkunst,
   },
   {
     title: "Hygiëne",
     description: "Reiniging, desinfectie en persoonlijke hygiëne producten.",
-    image: "/images/category-hygiene.jpg",
-    count: "1 product",
+    image: "/hygiene.png",
+    data: hygiene,
   },
 ];
 
+// BESTSELLERS
 export const bestsellers = [
   {
-    title: "Kartonnen Dozen",
-    category: "Verpakking",
-    image: "/images/bestseller-1.jpg",
-    description: "Hoogwaardige kartonnen dozen voor transport en opslag.",
+    title: "Kartonnen zakken",
+    description: "Stevige kartonnen zakken voor takeaway. Ideaal voor retail en horeca.",   
+    customImage: "/Kartonnen-zakken.png",
   },
   {
-    title: "Voedselverpakkingen",
-    category: "Verpakking",
-    image: "/images/bestseller-2.jpg",
-    description: "Food-grade verpakkingen voor horeca en voedingsindustrie.",
+    title: "Pizza dozen",
+    description: "Stevige pizzadozen voor takeaway en levering. Geschikt voor verschillende formaten pizza's.",  
+    customImage: "/pizza-box.png",
   },
   {
-    title: "Papieren Bekers",
-    category: "Verpakking",
-    image: "/images/bestseller-3.jpg",
-    description: "Bekers voor warme en koude dranken.",
-  },
-  {
-    title: "Maaltijdtrays",
-    category: "Verpakking",
-    image: "/images/bestseller-4.jpg",
-    description: "Robuuste trays voor catering en meals-to-go.",
-  },
-  {
-    title: "Eco Verpakking",
-    category: "Verpakking",
-    image: "/images/bestseller-5.jpg",
-    description: "Milieuvriendelijke oplossingen van gerecycleerd materiaal.",
-  },
-  {
-    title: "Tafellinnen",
-    category: "Tafelkunst",
-    image: "/images/bestseller-6.jpg",
-    description: "Professioneel tafellinnen voor restaurants en events.",
+    title: "Servietten",
+    description: "Kwalitatieve servietten voor horeca en events. Zacht, sterk en ideaal voor dagelijks gebruik.",    customImage: "/Servietten.png",
   },
 ];
 
+// BENEFITS
 export const benefits = [
   {
     title: "Kwaliteit",
-    text: "Alle producten voldoen aan strenge kwaliteitsnormen en certificeringen.",
+    text: "Alle producten voldoen aan de strengste kwaliteitsnormen en certificeringen.",
+    icon: Award,
   },
   {
     title: "Klantgericht",
     text: "Persoonlijke begeleiding van offerte tot levering en nazorg.",
+    icon: Users,
   },
   {
     title: "Expertise",
     text: "20+ jaar ervaring in de verpakkingssector en diepgaande productkennis.",
+    icon: Star,
   },
   {
     title: "Innovatie",
     text: "Voortdurend op zoek naar nieuwe en betere verpakkingsoplossingen.",
+    icon: Lightbulb,
   },
   {
     title: "Betrouwbaarheid",
     text: "Vast aanspreekpunt, correcte leveringen en transparante communicatie.",
+    icon: Shield,
   },
   {
     title: "Duurzaamheid",
     text: "Breed gamma eco-producten en engagement voor een groenere toekomst.",
+    icon: Leaf,
   },
 ];

@@ -1,0 +1,674 @@
+[
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "8060",
+    "size": "600 g x 30 cm x 4 rolls",
+    "quantity": "11 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "8070",
+    "size": "700 g x 30 cm x 4 rolls",
+    "quantity": "11 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "8080",
+    "size": "800 g x 30 cm x 4 rolls",
+    "quantity": "11 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "8090",
+    "size": "900 g x 30 cm x 4 rolls",
+    "quantity": "11 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "8100",
+    "size": "1000 g x 30 cm x 4 rolls",
+    "quantity": "11 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "7070",
+    "size": "700 g x 30 cm x 6 rolls",
+    "quantity": "14 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "7080",
+    "size": "800 g x 30 cm x 6 rolls",
+    "quantity": "14 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "7090",
+    "size": "900 g x 30 cm x 6 rolls",
+    "quantity": "14 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "7100",
+    "size": "1000 g x 30 cm x 6 rolls",
+    "quantity": "14 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "7120",
+    "size": "1200 g x 30 cm x 6 rolls",
+    "quantity": "14 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "7135",
+    "size": "1350 g x 30 cm x 6 rolls",
+    "quantity": "14 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "7140",
+    "size": "1400 g x 30 cm x 6 rolls",
+    "quantity": "14 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "7150",
+    "size": "1500 g x 30 cm x 6 rolls",
+    "quantity": "14 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "7160",
+    "size": "1600 g x 30 cm x 6 rolls",
+    "quantity": "14 mic"
+  },
+  {
+    "source_file": "aluminium_foil.json",
+    "category": "Aluminium foil",
+    "code": "7200",
+    "size": "2600 g x 30 cm x 6 rolls",
+    "quantity": "14 mic"
+  },
+  {
+    "source_file": "strech_foil.json",
+    "category": "Strech foil",
+    "code": "5170",
+    "size": "30 cm x 250 m",
+    "quantity": "4 rolls"
+  },
+  {
+    "source_file": "strech_foil.json",
+    "category": "Strech foil",
+    "code": "5172",
+    "size": "45 cm x 250 m",
+    "quantity": "4 rolls"
+  },
+  {
+    "source_file": "strech_foil.json",
+    "category": "Strech foil",
+    "code": "V30",
+    "size": "30 cm x 300 m",
+    "quantity": "6 rolls"
+  },
+  {
+    "source_file": "strech_foil.json",
+    "category": "Strech foil",
+    "code": "V45",
+    "size": "45 cm x 300 m",
+    "quantity": "6 rolls"
+  },
+  {
+    "source_file": "strech_foil.json",
+    "category": "Strech foil",
+    "code": "Pallet foil",
+    "size": "50 cm",
+    "weights_kg": [
+      1.8,
+      1.9,
+      2.0,
+      2.1,
+      2.2
+    ],
+    "quantity": "6 rolls"
+  },
+  {
+    "source_file": "foam_boxes.json",
+    "category": "Foam Boxes",
+    "code": "MB1",
+    "length_cm": 12.5,
+    "width_cm": 12.5,
+    "height_cm": 6.5,
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "foam_boxes.json",
+    "category": "Foam Boxes",
+    "code": "MB2",
+    "length_cm": 14.5,
+    "width_cm": 15.5,
+    "height_cm": 7,
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "foam_boxes.json",
+    "category": "Foam Boxes",
+    "code": "MB3",
+    "length_cm": 12.5,
+    "width_cm": 12.5,
+    "height_cm": 6.5,
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "foam_boxes.json",
+    "category": "Foam Boxes",
+    "code": "HB6",
+    "length_cm": 14.5,
+    "width_cm": 15.5,
+    "height_cm": 7,
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "foam_boxes.json",
+    "category": "Foam Boxes",
+    "code": "HB7",
+    "length_cm": 12.5,
+    "width_cm": 12.5,
+    "height_cm": 6.5,
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "foam_boxes.json",
+    "category": "Foam Boxes",
+    "code": "HB9",
+    "length_cm": 14.5,
+    "width_cm": 15.5,
+    "height_cm": 7,
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "foam_boxes.json",
+    "category": "Foam Boxes",
+    "code": "HB10",
+    "length_cm": 12.5,
+    "width_cm": 12.5,
+    "height_cm": 6.5,
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "kraft_box.json",
+    "category": "Kraft Box",
+    "code": "HB7",
+    "length_cm": 13,
+    "width_cm": 12,
+    "height_cm": 6,
+    "quantity": "200 pcs"
+  },
+  {
+    "source_file": "kraft_box.json",
+    "category": "Kraft Box",
+    "code": "HB6",
+    "length_cm": 16,
+    "width_cm": 14.5,
+    "height_cm": 8.5,
+    "quantity": "200 pcs"
+  },
+  {
+    "source_file": "kraft_box.json",
+    "category": "Kraft Box",
+    "code": "HB10",
+    "length_cm": 23,
+    "width_cm": 14.5,
+    "height_cm": 6.5,
+    "quantity": "200 pcs"
+  },
+  {
+    "source_file": "fast_food_paper_bag.json",
+    "category": "Fast Food Paper Bag",
+    "code": "5252",
+    "size": "16x16 cm Case",
+    "quantity": "4-5 KG"
+  },
+  {
+    "source_file": "fast_food_paper_bag.json",
+    "category": "Fast Food Paper Bag",
+    "code": "0440",
+    "size": "17 x 4.5 x 28 cm",
+    "quantity": "1000 pcs"
+  },
+  {
+    "source_file": "fast_food_paper_bag.json",
+    "category": "Fast Food Paper Bag",
+    "code": "5623",
+    "size": "40 cm",
+    "quantity": "1000 pcs"
+  },
+  {
+    "source_file": "paper_bags.json",
+    "category": "Paper bags",
+    "code": "KR22",
+    "size": "22 x 10 x 30 cm",
+    "quantity": "250 pcs"
+  },
+  {
+    "source_file": "paper_bags.json",
+    "category": "Paper bags",
+    "code": "KR28",
+    "size": "28 x 17 x 29 cm",
+    "quantity": "250 pcs"
+  },
+  {
+    "source_file": "paper_bags.json",
+    "category": "Paper bags",
+    "code": "KR32",
+    "size": "32 x 22 x 27 cm",
+    "quantity": "250 pcs"
+  },
+  {
+    "source_file": "freshpack_paper.json",
+    "category": "Freshpack paper",
+    "code": "5627",
+    "size": "37.5 x 50 cm",
+    "quantity": "10 KG"
+  },
+  {
+    "source_file": "freshpack_paper.json",
+    "category": "Freshpack paper",
+    "code": "5629",
+    "size": "25 x 37.5",
+    "quantity": "10 KG"
+  },
+  {
+    "source_file": "freshpack_paper.json",
+    "category": "Freshpack paper",
+    "code": "5630",
+    "size": "33 x 40 cm",
+    "quantity": "10 KG"
+  },
+  {
+    "source_file": "freshpack_paper.json",
+    "category": "Freshpack paper",
+    "code": "5631",
+    "size": "50 x 75 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "casse_paper.json",
+    "category": "Casse paper",
+    "code": "5209",
+    "size": "20 x 20 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "casse_paper.json",
+    "category": "Casse paper",
+    "code": "5208",
+    "size": "25 x 25 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "casse_paper.json",
+    "category": "Casse paper",
+    "code": "5211",
+    "size": "20 x 30 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "casse_paper.json",
+    "category": "Casse paper",
+    "code": "5207",
+    "size": "25 x 30 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "casse_paper.json",
+    "category": "Casse paper",
+    "code": "5206",
+    "size": "30 x 40 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "casse_paper.json",
+    "category": "Casse paper",
+    "code": "5210",
+    "size": "40 x 40 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "casse_paper.json",
+    "category": "Casse paper",
+    "code": "5205",
+    "size": "40 x 45 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "casse_paper.json",
+    "category": "Casse paper",
+    "code": "5204",
+    "size": "40 x 50 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "casse_paper.json",
+    "category": "Casse paper",
+    "code": "5201",
+    "size": "50 x 60 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "casse_paper.json",
+    "category": "Casse paper",
+    "code": "5203",
+    "size": "45 x 50 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "casse_paper.json",
+    "category": "Casse paper",
+    "code": "5202",
+    "size": "45 x 60 cm",
+    "quantity": "10 kg"
+  },
+  {
+    "source_file": "pizza_box.json",
+    "category": "Pizza box",
+    "code": "FR",
+    "sizes": [
+      20,
+      22,
+      26,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      36,
+      40,
+      50
+    ],
+    "unit": "cm",
+    "quantity": "50/100 pcs"
+  },
+  {
+    "source_file": "pizza_box.json",
+    "category": "Pizza box",
+    "code": "NY",
+    "sizes": [
+      22,
+      26,
+      28,
+      30,
+      32,
+      33,
+      36,
+      38,
+      40
+    ],
+    "unit": "cm",
+    "quantity": "50/100 pcs"
+  },
+  {
+    "source_file": "pizza_box.json",
+    "category": "Pizza box",
+    "code": "HT",
+    "sizes": [
+      22,
+      24,
+      26,
+      28,
+      30,
+      33,
+      36,
+      38
+    ],
+    "unit": "cm",
+    "quantity": "50/100 pcs"
+  },
+  {
+    "source_file": "pizza_box.json",
+    "category": "Pizza box",
+    "code": "AM",
+    "sizes": [
+      28,
+      30,
+      32
+    ],
+    "unit": "cm",
+    "quantity": "50/100 pcs"
+  },
+  {
+    "source_file": "pizza_box.json",
+    "category": "Pizza box",
+    "code": "CL30",
+    "sizes": [
+      30
+    ],
+    "unit": "cm",
+    "quantity": "100 pcs"
+  },
+  {
+    "source_file": "sauce_pot_lid.json",
+    "category": "Sauce pot / lid",
+    "code": "SD500",
+    "size": "50 cc",
+    "quantity": "50 x 10 pcs With Lid"
+  },
+  {
+    "source_file": "sauce_pot_lid.json",
+    "category": "Sauce pot / lid",
+    "code": "SD800",
+    "size": "80 cc",
+    "quantity": "50 x 10 pcs With Lid"
+  },
+  {
+    "source_file": "sauce_pot_lid.json",
+    "category": "Sauce pot / lid",
+    "code": "SD100",
+    "size": "30 cc",
+    "quantity": "50 x 10 pcs With Lid"
+  },
+  {
+    "source_file": "plastic_bags_bio_bags.json",
+    "category": "Plastic bags - Bio Bags",
+    "code": "BIO45",
+    "size": "25 + 12 x 45 cm",
+    "thickness": "10 mic",
+    "quantity": "1000/2000 pcs"
+  },
+  {
+    "source_file": "plastic_bags_bio_bags.json",
+    "category": "Plastic bags - Bio Bags",
+    "code": "BIO48",
+    "size": "28 + 14 x 48 cm",
+    "thickness": "10 mic",
+    "quantity": "1000/2000 pcs"
+  },
+  {
+    "source_file": "plastic_bags_bio_bags.json",
+    "category": "Plastic bags - Bio Bags",
+    "code": "BIO55",
+    "size": "30 + 18 x 55 cm",
+    "thickness": "13 mic",
+    "quantity": "2000 pcs"
+  },
+  {
+    "source_file": "plastic_bags_bio_bags.json",
+    "category": "Plastic bags - Bio Bags",
+    "code": "BIO60",
+    "size": "30 + 18 x 60 cm",
+    "thickness": "15 mic",
+    "quantity": "1000 pcs"
+  },
+  {
+    "source_file": "plastic_bags_white_bags.json",
+    "category": "Plastic bags - White Bags",
+    "code": "02007",
+    "size": "25 x 12 x 45 cm",
+    "thickness": "10 mic",
+    "quantity": "2000 pcs"
+  },
+  {
+    "source_file": "plastic_bags_white_bags.json",
+    "category": "Plastic bags - White Bags",
+    "code": "02008",
+    "size": "28 + 14 x 48 cm",
+    "thickness": "10 mic",
+    "quantity": "2000 pcs"
+  },
+  {
+    "source_file": "plastic_bags_white_bags.json",
+    "category": "Plastic bags - White Bags",
+    "code": "02030",
+    "size": "30 + 18 x 55 cm",
+    "thickness": "14 mic",
+    "quantity": "2000 pcs"
+  },
+  {
+    "source_file": "plastic_bags_white_bags.json",
+    "category": "Plastic bags - White Bags",
+    "code": "02011",
+    "size": "30 + 18 x 60 cm",
+    "thickness": "14 mic",
+    "quantity": "2000 pcs"
+  },
+  {
+    "source_file": "plastic_bags_white_bags.json",
+    "category": "Plastic bags - White Bags",
+    "code": "02075",
+    "size": "40 + 20 x 70 cm",
+    "thickness": "14 mic",
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "reusable_bags.json",
+    "category": "Reusable Bags",
+    "code": "02052",
+    "size": "25 + 12 x 45 cm",
+    "thickness": "50 mic",
+    "quantity": "400 pcs"
+  },
+  {
+    "source_file": "reusable_bags.json",
+    "category": "Reusable Bags",
+    "code": "02062",
+    "size": "28 + 14 x 48 cm",
+    "thickness": "50 mic",
+    "quantity": "400 pcs",
+    "quantity_label": "Case Quantity"
+  },
+  {
+    "source_file": "reusable_bags.json",
+    "category": "Reusable Bags",
+    "code": "02072",
+    "size": "30 + 18 x 55 cm",
+    "thickness": "50 mic",
+    "quantity": "400 pcs"
+  },
+  {
+    "source_file": "reusable_bags.json",
+    "category": "Reusable Bags",
+    "code": "3545",
+    "size": "25 + 12 x 45 cm",
+    "thickness": "35 mic",
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "reusable_bags.json",
+    "category": "Reusable Bags",
+    "code": "3548",
+    "size": "28 + 14 x 48 cm",
+    "thickness": "35 mic",
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "reusable_bags.json",
+    "category": "Reusable Bags",
+    "code": "3555",
+    "size": "30 + 18 x 55 cm",
+    "thickness": "35 mic",
+    "quantity": "500 pcs"
+  },
+  {
+    "source_file": "reusable_bags.json",
+    "category": "Reusable Bags",
+    "code": "EPI45",
+    "size": "25 + 12 x 45 cm",
+    "thickness": "17 mic",
+    "quantity": "800 pcs"
+  },
+  {
+    "source_file": "reusable_bags.json",
+    "category": "Reusable Bags",
+    "code": "EPI48",
+    "size": "28 + 14 x 48 cm",
+    "thickness": "17 mic",
+    "quantity": "800 pcs",
+    "quantity_label": "Case Quantity"
+  },
+  {
+    "source_file": "reusable_bags.json",
+    "category": "Reusable Bags",
+    "code": "EPI55",
+    "size": "30 + 18 x 55 cm",
+    "thickness": "17 mic",
+    "quantity": "800 pcs",
+    "quantity_label": "Case Quantity"
+  },
+  {
+    "source_file": "containers.json",
+    "category": "Containers",
+    "size": "450 cc",
+    "quantity": "1000"
+  },
+  {
+    "source_file": "containers.json",
+    "category": "Containers",
+    "size": "670 cc",
+    "quantity": "1000"
+  },
+  {
+    "source_file": "containers.json",
+    "category": "Containers",
+    "size": "911 cc",
+    "quantity": "1000"
+  },
+  {
+    "source_file": "containers.json",
+    "category": "Containers",
+    "size": "850 cc",
+    "quantity": "1000"
+  },
+  {
+    "source_file": "lids.json",
+    "category": "Lids",
+    "size": "450B",
+    "quantity": "1000"
+  },
+  {
+    "source_file": "lids.json",
+    "category": "Lids",
+    "size": "670B",
+    "quantity": "1000"
+  },
+  {
+    "source_file": "lids.json",
+    "category": "Lids",
+    "size": "911",
+    "quantity": "1000"
+  }
+]

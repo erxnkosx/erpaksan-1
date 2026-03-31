@@ -1,0 +1,66 @@
+[
+  {
+    "source_file": "trash_bags.json",
+    "category": "Trash Bags",
+    "code": "0172",
+    "size": "80 x 120 cm",
+    "variant": "Black 130L",
+    "quantity": "10x10 pcs"
+  },
+  {
+    "source_file": "trash_bags.json",
+    "category": "Trash Bags",
+    "code": "0175",
+    "size": "80 x 120 cm",
+    "variant": "White 130L",
+    "quantity": "10x10 pcs"
+  },
+  {
+    "source_file": "uncategorized.json",
+    "product_code": "6050",
+    "size": "33 cm",
+    "quantity": "100"
+  },
+  {
+    "source_file": "uncategorized.json",
+    "product_code": "6051",
+    "size": "35 cm",
+    "quantity": "100"
+  },
+  {
+    "source_file": "uncategorized.json",
+    "product_code": "4145",
+    "size": "45 cm",
+    "quantity": "100"
+  },
+  {
+    "source_file": "uncategorized.json",
+    "product_code": "4146",
+    "size": "55 cm",
+    "quantity": "100"
+  },
+  {
+    "source_file": "uncategorized.json",
+    "product_code": "5281",
+    "name": "Jumbo toilet roll",
+    "quantity": "6 rolls"
+  },
+  {
+    "source_file": "uncategorized.json",
+    "product_code": "5283",
+    "name": "Mini Jumbo toilet roll",
+    "quantity": "12 rolls"
+  },
+  {
+    "source_file": "uncategorized.json",
+    "product_code": "0800",
+    "size": "3 kg",
+    "quantity": "6 rolls"
+  },
+  {
+    "source_file": "uncategorized.json",
+    "product_code": "0801",
+    "size": "2 kg",
+    "quantity": "6 rolls"
+  }
+]
