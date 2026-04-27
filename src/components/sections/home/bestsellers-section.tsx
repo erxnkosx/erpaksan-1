@@ -28,7 +28,7 @@ export default function BestsellersSection() {
               {item.title === "Kartonnen zakken" ? (
                 <div className="flex h-56 items-end  justify-center bg-white pt-5">
                   <img
-                    src="/Kartonnen-zakken.png"
+                    src="images/home/Kartonnen-zakken.png"
                     alt="Kartonnen zakken"
                     className="h-full object-contain"
                   />
@@ -36,7 +36,7 @@ export default function BestsellersSection() {
               ) : item.title === "Pizza dozen" ? (
                 <div className="flex h-56 items-end justify-center bg-white pb-10 pt-4">
                   <img
-                    src="/pizza-box.png"
+                    src="images/home/pizza-box.png"
                     alt="Pizzadoos"
                     className="h-[155%] object-contain translate-y-18"
                   />
@@ -44,7 +44,7 @@ export default function BestsellersSection() {
               ) : item.title === "Servietten" ? (
                 <div className="flex h-56 items-center justify-center bg-white">
                   <img
-                    src="/Servietten.png"
+                    src="images/home/Servietten.png"
                     alt="Servietten"
                     className="h-[75%] object-contain"
                   />

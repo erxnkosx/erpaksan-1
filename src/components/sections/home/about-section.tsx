@@ -62,7 +62,7 @@ export default function AboutSection() {
         <div className="relative">
           <div
             className="h-[420px] rounded-3xl bg-cover bg-center shadow-xl"
-            style={{ backgroundImage: "url(image.png)" }}
+            style={{ backgroundImage: "url(images/home/image.png)" }}
           />
           <div className="absolute -bottom-5 left-4 rounded-2xl bg-[#C08A33] px-5 py-4 text-white shadow-lg">
             <div className="text-3xl font-black">20+</div>

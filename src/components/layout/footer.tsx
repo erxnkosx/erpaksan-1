@@ -5,7 +5,7 @@ export default function Footer() {
         <div>
           <a href="/" className="flex items-center -mt-2.75">
             <img
-              src="/logo-removebg-preview (2).png"
+              src="images/home/logo-removebg-preview (2).png"
               alt="Erpak San"
               className="h-10 w-auto"
             />
