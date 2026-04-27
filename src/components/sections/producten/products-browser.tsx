@@ -12,11 +12,15 @@ import {
   type PackagingSubgroup,
 } from "@/lib/data";
 
-export default function ProductsBrowser() {
+interface Props {
+  activeProduct: string | null;
+  setActiveProduct: (id: string | null) => void;
+}
+
+export default function ProductsBrowser({ activeProduct, setActiveProduct }: Props) {
   const [search, setSearch] = useState("");
   const [mainFilter, setMainFilter] = useState<MainCategory>("Alle");
   const [subgroup, setSubgroup] = useState<PackagingSubgroup>("Alle");
-  const [activeProduct, setActiveProduct] = useState<string | null>(null);
 
   const filteredProducts = useMemo(() => {
     let items = [...packagingProducts];
