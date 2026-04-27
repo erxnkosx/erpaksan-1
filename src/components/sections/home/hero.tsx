@@ -11,7 +11,7 @@ export default function Hero() {
             rgba(10, 46, 90, 0.65) 55%,
             rgba(250, 250, 250, 0.35) 100%
         ),
-        url('/image.png')
+        url('images/home/image.png')
         `,
         backgroundSize: "cover",
         backgroundPosition: "center",
