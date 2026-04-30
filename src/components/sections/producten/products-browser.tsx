@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   mainFilters,
-  packagingProducts,
+  allProducts,
   packagingSubgroups,
   groupVariantsByImage,
   type MainCategory,
@@ -23,7 +23,7 @@ export default function ProductsBrowser({ activeProduct, setActiveProduct }: Pro
   const [subgroup, setSubgroup] = useState<PackagingSubgroup>("Alle");
 
   const filteredProducts = useMemo(() => {
-    let items = [...packagingProducts];
+    let items = [...allProducts];
 
     if (mainFilter !== "Alle") {
       items = items.filter((item) => item.category === mainFilter);
@@ -51,7 +51,7 @@ export default function ProductsBrowser({ activeProduct, setActiveProduct }: Pro
     (item) => item.id === activeProduct
   );
   const groupedVariants = selectedProduct
-  ? groupVariantsByImage(selectedProduct.title, selectedProduct.variants)
+  ? groupVariantsByImage(selectedProduct.title, selectedProduct.variants, selectedProduct.image)
   : [];
   return (
     <section className="bg-[#F7F8FB] pb-16">
@@ -203,12 +203,26 @@ export default function ProductsBrowser({ activeProduct, setActiveProduct }: Pro
                       <div className="space-y-4">
                         {group.variants.map((variant, index) => (
                           <div
-                            key={`${variant.code || index}`}
+                            key={`${variant.code || variant.product_code || index}`}
                             className="border-b border-slate-200 pb-4 last:border-b-0 last:pb-0"
                           >
                             <p className="text-base font-semibold text-[#D79B16]">
-                              {variant.code || `Variant ${index + 1}`}
+                              {variant.code || variant.product_code || `Variant ${index + 1}`}
                             </p>
+
+                            {variant.variant && (
+                              <p className="mt-1 text-sm text-slate-600">
+                                <span className="font-semibold text-[#183153]">Type:</span>{" "}
+                                {variant.variant}
+                              </p>
+                            )}
+
+                            {variant.name && (
+                              <p className="mt-1 text-sm text-slate-600">
+                                <span className="font-semibold text-[#183153]">Naam:</span>{" "}
+                                {variant.name}
+                              </p>
+                            )}
 
                             {variant.size && (
                               <p className="mt-1 text-sm text-slate-600">

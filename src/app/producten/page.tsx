@@ -6,12 +6,12 @@ import Footer from "@/components/layout/footer";
 import ProductsHero from "@/components/sections/producten/products-hero";
 import ProductsBrowser from "@/components/sections/producten/products-browser";
 import Breadcrumb from "@/components/ui/breadcrumb";
-import { packagingProducts } from "@/lib/data";
+import { allProducts } from "@/lib/data";
 
 export default function ProductenPage() {
   const [activeProduct, setActiveProduct] = useState<string | null>(null);
 
-  const selectedProduct = packagingProducts.find(p => p.id === activeProduct);
+  const selectedProduct = allProducts.find(p => p.id === activeProduct);
 
   const breadcrumbItems = [
     { label: "Home", href: "/" },
