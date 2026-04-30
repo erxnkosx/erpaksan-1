@@ -138,11 +138,11 @@ function slugify(text: string) {
 function getPackagingImage(title: string) {
   switch (title.toLowerCase()) {
     case "pizza box":
-      return "/images/home/pizza-box.png";
+      return "/images/producten/verpakking/pizza/fr.png";
     case "paper bags":
       return "/images/producten/verpakking/paper-bags/KR32.png";
     case "fast food paper bag":
-      return "/images/producten/verpakking/paper-bags/fastfoodpaperbag.png";
+      return "/images/producten/verpakking/fastfood-paper-bags/5252-1.png";
     case "sauce pot / lid":
       return "/images/producten/verpakking/sauce-pot-lid/SD500.png";
     case "plastic bags - bio bags":
@@ -284,13 +284,13 @@ export function getVariantImage(productTitle: string, code?: string) {
   if (title === "fast food paper bag") {
     switch (variantCode) {
       case "5252":
-        return "/images/producten/verpakking/paper-bags/fastfoodpaperbag.png";
+        return "/images/producten/verpakking/fastfood-paper-bags/5252-1.png";
       case "0440":
-        return "/images/producten/verpakking/paper-bags/fastfoodpaperbag.png";
+        return "/images/producten/verpakking/fastfood-paper-bags/0440.png";
       case "5623":
-        return "/images/producten/verpakking/paper-bags/fastfoodpaperbag.png";
+        return "/images/producten/verpakking/fastfood-paper-bags/5623.png";
       default:
-        return "/images/producten/verpakking/paper-bags/fastfoodpaperbag.png";
+        return "/images/producten/verpakking/fastfood-paper-bags/5252-1.png";
     }
   }
 
@@ -540,6 +540,94 @@ export function groupVariantsByImage(productTitle: string, variants: any[], fall
         ),
       },
     ].filter((group) => group.variants.length > 0);
+  }
+
+  if (title === "containers") {
+    const sizeToImage: Record<string, string> = {
+      "450 cc": "/images/producten/verpakking/containers/klein.png",
+      "670 cc": "/images/producten/verpakking/containers/middel.png",
+      "850 cc": "/images/producten/verpakking/containers/groot.png",
+      "911 cc": "/images/producten/verpakking/containers/extragroot.png",
+    };
+    return variants.map((v) => ({
+      image: sizeToImage[v.size] ?? "/images/producten/verpakking/containers/groot.png",
+      title: `Container ${v.size}`,
+      variants: [v],
+    }));
+  }
+
+  if (title === "reusable bags") {
+    return [
+      {
+        image: "/images/producten/verpakking/plastic-bags/reusable-35mic.png",
+        title: "Reusable Bags 35/50 mic",
+        variants: variants.filter((v) =>
+          ["02052", "02062", "02072", "3545", "3548", "3555"].includes(v.code)
+        ),
+      },
+      {
+        image: "/images/producten/verpakking/plastic-bags/reusable-bag-epi.png",
+        title: "Reusable Bags EPI",
+        variants: variants.filter((v) =>
+          ["EPI45", "EPI48", "EPI55"].includes(v.code)
+        ),
+      },
+    ].filter((g) => g.variants.length > 0);
+  }
+
+  if (title === "pizza box") {
+    return [
+      {
+        image: "/images/producten/verpakking/pizza/fr.png",
+        title: "Pizza Box FR",
+        variants: variants.filter((v) => v.code === "FR"),
+      },
+      {
+        image: "/images/producten/verpakking/pizza/ny.png",
+        title: "Pizza Box NY",
+        variants: variants.filter((v) => v.code === "NY"),
+      },
+      {
+        image: "/images/producten/verpakking/pizza/ht.png",
+        title: "Pizza Box HT",
+        variants: variants.filter((v) => v.code === "HT"),
+      },
+      {
+        image: "/images/producten/verpakking/pizza/am.png",
+        title: "Pizza Box AM",
+        variants: variants.filter((v) => v.code === "AM"),
+      },
+      {
+        image: "/images/producten/verpakking/pizza/CL-30.png",
+        title: "Pizza Box CL30",
+        variants: variants.filter((v) => v.code === "CL30"),
+      },
+      {
+        image: "/images/producten/verpakking/pizza/baski.png",
+        title: "Pizza Box BASKI",
+        variants: variants.filter((v) => v.code === "BASKI"),
+      },
+    ].filter((g) => g.variants.length > 0);
+  }
+
+  if (title === "fast food paper bag") {
+    return [
+      {
+        image: "/images/producten/verpakking/fastfood-paper-bags/5252-1.png",
+        title: "Fast Food Paper Bag 16x16 cm",
+        variants: variants.filter((v) => v.code === "5252"),
+      },
+      {
+        image: "/images/producten/verpakking/fastfood-paper-bags/0440.png",
+        title: "Fast Food Paper Bag 17x4.5x28 cm",
+        variants: variants.filter((v) => v.code === "0440"),
+      },
+      {
+        image: "/images/producten/verpakking/fastfood-paper-bags/5623.png",
+        title: "Fast Food Paper Bag 40 cm",
+        variants: variants.filter((v) => v.code === "5623"),
+      },
+    ].filter((g) => g.variants.length > 0);
   }
 
   if (title === "trash bags") {
