@@ -401,6 +401,78 @@ function mapPackagingProducts(items: any[]): ProductGridItem[] {
 export const packagingProducts: ProductGridItem[] =
   mapPackagingProducts(verpakking);
 
+function getTafelkunstImage(title: string): string {
+  switch (title.toLowerCase()) {
+    case "cutlery":
+      return "/images/home/tafelkunst.png";
+    case "paper cup":
+      return "/images/home/Paper-cup.png";
+    case "napkins":
+      return "/images/home/Servietten.png";
+    default:
+      return "/images/home/tafelkunst.png";
+  }
+}
+
+function getHygieneImage(title: string): string {
+  switch (title.toLowerCase()) {
+    case "trash bags":
+      return "/images/producten/hygiëne/trash-bags/trash-zwart.png";
+    default:
+      return "/images/home/hygiene.png";
+  }
+}
+
+function mapTafelkunstProducts(items: any[]): ProductGridItem[] {
+  const grouped = items.reduce((acc: Record<string, any[]>, item) => {
+    const key = item.category || "Tafelkunst product";
+    if (!acc[key]) acc[key] = [];
+    acc[key].push(item);
+    return acc;
+  }, {});
+
+  return Object.entries(grouped).map(([title, group]) => ({
+    id: slugify(title),
+    title,
+    description: buildCategorySummary(group),
+    category: "Tafelkunst" as const,
+    image: getTafelkunstImage(title),
+    slug: slugify(title),
+    variants: group,
+  }));
+}
+
+function mapHygieneProducts(items: any[]): ProductGridItem[] {
+  const grouped = items.reduce((acc: Record<string, any[]>, item) => {
+    const key = item.category || "Hygiëne Producten";
+    if (!acc[key]) acc[key] = [];
+    acc[key].push(item);
+    return acc;
+  }, {});
+
+  return Object.entries(grouped).map(([title, group]) => ({
+    id: slugify(title),
+    title,
+    description: buildCategorySummary(group),
+    category: "Hygiëne" as const,
+    image: getHygieneImage(title),
+    slug: slugify(title),
+    variants: group,
+  }));
+}
+
+export const tafelkunstProducts: ProductGridItem[] =
+  mapTafelkunstProducts(tafelkunst);
+
+export const hygieneProducts: ProductGridItem[] =
+  mapHygieneProducts(hygiene);
+
+export const allProducts: ProductGridItem[] = [
+  ...packagingProducts,
+  ...tafelkunstProducts,
+  ...hygieneProducts,
+];
+
 export const mainFilters: MainCategory[] = [
   "Alle",
   "Verpakking",
@@ -415,7 +487,7 @@ export const packagingSubgroups: PackagingSubgroup[] = [
   "Papier & folies",
 ];
 
-export function groupVariantsByImage(productTitle: string, variants: any[]) {
+export function groupVariantsByImage(productTitle: string, variants: any[], fallbackImage?: string) {
   const title = productTitle.toLowerCase();
 
   if (title === "aluminium foil") {
@@ -470,9 +542,28 @@ export function groupVariantsByImage(productTitle: string, variants: any[]) {
     ].filter((group) => group.variants.length > 0);
   }
 
+  if (title === "trash bags") {
+    return [
+      {
+        image: "/images/producten/hygiëne/trash-bags/trash-zwart.png",
+        title: "Trash Bags - Black",
+        variants: variants.filter((v) =>
+          v.variant?.toLowerCase().includes("black")
+        ),
+      },
+      {
+        image: "/images/producten/hygiëne/trash-bags/trash-grijs.png",
+        title: "Trash Bags - White",
+        variants: variants.filter((v) =>
+          !v.variant?.toLowerCase().includes("black")
+        ),
+      },
+    ].filter((g) => g.variants.length > 0);
+  }
+
   return [
     {
-      image: getPackagingImage(productTitle),
+      image: fallbackImage || getPackagingImage(productTitle),
       title: productTitle,
       variants,
     },
