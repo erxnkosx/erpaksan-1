@@ -9,8 +9,8 @@ import hygiene from "@/data/categories/Hygiëne/hygiene_from_pdf.json";
 export const navLinks = [
   { label: "Home", href: "/" },
   { label: "Producten", href: "/producten" },
-  { label: "Over ons", href: "#over-ons" },
-  { label: "Contact", href: "#contact" },
+  { label: "Over ons", href: "/over-ons" },
+  { label: "Contact", href: "/#contact" },
   { label: "Online catalogus", href: "#" },
 ];
 
@@ -113,12 +113,9 @@ export type MainCategory = "Alle" | "Verpakking" | "Tafelkunst" | "Hygiëne";
 
 export type PackagingSubgroup =
   | "Alle"
-  | "Zakken"
-  | "Dozen"
-  | "Bowls & Containers"
-  | "Bekers"
-  | "Papier"
-  | "Folies";
+  | "Zakken & draagtassen"
+  | "Dozen & food containers"
+  | "Papier & folies";
 
 export type ProductGridItem = {
   id: string;
@@ -346,34 +343,35 @@ function getPackagingSubgroup(
       "fast food paper bag",
     ].includes(key)
   ) {
-    return "Zakken";
-  }
-
-  if (["pizza box", "kraft box", "foam boxes"].includes(key)) {
-    return "Dozen";
-  }
-
-  if (["sauce pot / lid", "containers", "lids"].includes(key)) {
-    return "Bowls & Containers";
-  }
-
-  if (["paper cup"].includes(key)) {
-    return "Bekers";
+    return "Zakken & draagtassen";
   }
 
   if (
-    ["casse paper", "freshpack paper", "greaseproof wrapping paper"].includes(
-      key
-    )
+    [
+      "pizza box",
+      "kraft box",
+      "foam boxes",
+      "sauce pot / lid",
+      "containers",
+      "lids",
+    ].includes(key)
   ) {
-    return "Papier";
+    return "Dozen & food containers";
   }
 
-  if (["strech foil", "aluminium foil"].includes(key)) {
-    return "Folies";
+  if (
+    [
+      "casse paper",
+      "freshpack paper",
+      "greaseproof wrapping paper",
+      "strech foil",
+      "aluminium foil",
+    ].includes(key)
+  ) {
+    return "Papier & folies";
   }
 
-  return "Bowls & Containers";
+  return "Dozen & food containers";
 }
 
 function mapPackagingProducts(items: any[]): ProductGridItem[] {
@@ -412,12 +410,9 @@ export const mainFilters: MainCategory[] = [
 
 export const packagingSubgroups: PackagingSubgroup[] = [
   "Alle",
-  "Zakken",
-  "Dozen",
-  "Bowls & Containers",
-  "Bekers",
-  "Papier",
-  "Folies",
+  "Zakken & draagtassen",
+  "Dozen & food containers",
+  "Papier & folies",
 ];
 
 export function groupVariantsByImage(productTitle: string, variants: any[]) {
